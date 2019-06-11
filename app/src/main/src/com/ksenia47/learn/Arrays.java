@@ -248,7 +248,7 @@ public class Arrays {
      * По данным числам n и m заполните двумерный массив размером n×m числами от 1 до n×m по спирали,
      * выходящей из левого верхнего угла и закрученной по часовой стрелке, как показано в примере.
      */
-    public String fillArrayToSpiral(int n, int m) {
+    public String fillArrayAsSpiral(int n, int m) {
         int[][] array = new int[n][m];
         int i = 0;
         int k = 0;
